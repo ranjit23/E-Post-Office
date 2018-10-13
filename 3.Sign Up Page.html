@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up now</title>
+	<link rel="stylesheet" type="text/css" href="3.Sign Up Page.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+
+	<div class="navbar">
+		<h1 id="h1">Sign up now</h1>
+	</div>
+
+	<div class="form">
+		<form>				
+			<h1 id="color">Create your E-Post Office Account</h1>
+			<input type="text" name="fName" placeholder="First name" class="input" required>
+			<input type="text" name="lName" placeholder="Last name"" class="input" required>
+			<input type="text" name="userName" placeholder="Username" class="input" required>
+			<input type="password" name="password" placeholder="Password" class="input" id="myInput" pattern=".{8,16}" required title="8 to 16 characters" required>
+			<label>
+				<input type="checkbox" onclick="myFunction()" class="margin">Show Password
+			</label>
+			<br>
+			<button>Create</button>
+		</form>
+	</div>
+
+	<!-- jQuery CDN File -->
+
+	<script
+  		src="https://code.jquery.com/jquery-3.3.1.min.js"
+  		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  		crossorigin="anonymous">
+  	</script>
+
+  	<!-- Our js File -->
+
+  	<script type="text/javascript" src="3.Sign Up Page.js" ></script>
+
+</body>
+</html>
