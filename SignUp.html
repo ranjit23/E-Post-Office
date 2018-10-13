@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,18 +17,18 @@
 		<h1 id="h1">Sign up now</h1>
 	</div>
 
-	<div class="form">
-		<form>				
+	<div class="form" action="signup.php">
+		<form method="post">
 			<h1 id="color">Create your E-Post Office Account</h1>
 			<input type="text" name="fName" placeholder="First name" class="input" required>
-			<input type="text" name="lName" placeholder="Last name"" class="input" required>
+			<input type="text" name="lName" placeholder="Last name"	 class="input" required>
 			<input type="text" name="userName" placeholder="Username" class="input" required>
 			<input type="password" name="password" placeholder="Password" class="input" id="myInput" pattern=".{8,16}" required title="8 to 16 characters" required>
 			<label>
 				<input type="checkbox" onclick="myFunction()" class="margin">Show Password
 			</label>
 			<br>
-			<button>Create</button>
+		 <button type="submit" name="save">Create</button>
 		</form>
 	</div>
 
